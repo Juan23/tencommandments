@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ten Commandments"
+  short_description: "On-demand read-only code review"
+  default_prompt: "Use $tencommandments for a bounded, read-only correctness review of the requested code change."
+policy:
+  allow_implicit_invocation: false

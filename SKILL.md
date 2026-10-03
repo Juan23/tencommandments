@@ -35,6 +35,11 @@ imagined failure modes.
 
 ## The Ten Commandments
 
+This section is the canonical rule data for consumers such as EngineeringBar.
+Reading or enforcing these rules does not invoke this explicit review, and
+prior implementation enforcement does not establish that an independent
+review passes.
+
 1. **Ground before changing.** Establish the authoritative API, schema, type,
    config, state shape, behavior, and relevant ownership boundary. Inspect the
    smallest relevant caller, consumer, implementation, or test before

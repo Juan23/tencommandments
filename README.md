@@ -18,3 +18,7 @@ checks the selected scope against the ten commandments; it does not edit,
 commit, push, deploy, or change configuration.
 
 See [`SKILL.md`](./SKILL.md) for the complete checklist.
+
+The numbered section in `SKILL.md` is canonical rule data for consumers such
+as EngineeringBar. Reading it as data does not invoke `$tencommandments`; use
+the skill explicitly for an independent review.
